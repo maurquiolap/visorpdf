@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor PDF</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f1f1;
+        }
+
+        header {
+            background: #202b3c;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        iframe {
+            display: block;
+            width: 100%;
+            height: calc(100vh - 55px);
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Visualizador de documentos PDF</h2>
+    </header>
+
+    <iframe
+        src="https://drive.google.com/file/d/18fabKVJGDX2kWvrPk0FlOO0Vy1pAoob9/preview"
+        allow="autoplay">
+    </iframe>
+
+</body>
+</html>
